@@ -1,0 +1,56 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	 
+}
+
+
+@font-face {
+    font-family: 'Archivo-VariableFont_wdth,wght' ;
+    src: url('fonts/Archivo-VariableFont_wdth.ttf');
+}
+a{
+    text-decoration: none;
+   
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar{
+  
+    background: #000000;
+    position: sticky;
+    top:0;
+}
+
+.navbar a{
+    width: 100%;
+    padding: 20px;
+    font-family:'Archivo-VariableFont_wdth,wght' ;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    transition: .3s ease-out all;     
+}
+
+.logo{
+    width: 15px;
+    height: 10px;
+}
+   
+
+.contenedor{
+    width: 90%;
+    max-width:100px ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
